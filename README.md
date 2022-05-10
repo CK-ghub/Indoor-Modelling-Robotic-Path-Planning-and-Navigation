@@ -14,7 +14,7 @@ The final versions of the projects must be able to achieve the following:
 <li><b>Indoor Navigation:</b> <p>This project is done in the Gazebo ROS simulator to understand the concept of autonomous indoor navigation. Given a 3-dimensional model of an indoor space, the robot deployed in the environment must first map the entire world, and know its relative position using Simultaneous Localization and Mapping (SLAM). Once the layout of the map is constructed, the robot uses RRT to sample random nodes across and construct tree-links while avoiding obstacles. The robot now has all the route maps between any 2 points in the map and with that knowledge, the robot can now traverse the region. Since the entire simulation is done in Gazebo ROS, knowledge of Linux OS was necessary to follow the instructions for deploying ROS in the same. Since the approach uses SLAM, we need to first understand how the robot first maps the world and then uses path planning algorithm while mapping to construct occupancy grid of obstacles and route-maps to navigate within the map. </p></li>
 
 
-REFERENCES
+## References
 
 [1] Gunduz, M., Isikdag, U., & Basaraner, M. (2016). A REVIEW OF RECENT RESEARCH IN INDOOR MODELLING & MAPPING. International Archives of the Photogrammetry, Remote Sensing & Spatial Information Sciences, 41.<br>
 [2] Han, J., Rong, M., Jiang, H., Liu, H., & Shen, S. (2021). Vectorized indoor surface reconstruction from 3D point cloud with multistep 2D optimization. ISPRS Journal of Photogrammetry and Remote Sensing, 177, 57-74.<br>
